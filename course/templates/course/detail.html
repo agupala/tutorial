@@ -1,0 +1,13 @@
+{% extends 'base/base.html' %}
+
+{% block title %}Detail{% endblock title %}
+
+{% block content %}
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="display-3">{{ course.name }}</h1>
+      <p>{{ course.description }}</p>
+    </div>
+  </div>
+  <a href="{% url 'index' %}" class="btn btn-primary">Volver</a>
+{% endblock content %}
