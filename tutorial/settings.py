@@ -27,7 +27,7 @@ SECRET_KEY = 'ic=f_nb+u(($dcdpi1m=b662bdup6bv6zbb#std^6#j8!(o=d3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG =False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['https://tutorialcf99.herokuapp.com/', '127.0.0.1']
 
 
 # Application definition
