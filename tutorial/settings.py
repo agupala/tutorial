@@ -32,7 +32,7 @@ SECRET_KEY = config('SECRET_KEY', default='ic=f_nb+u(($dcdpi1m=b662bdup6bv6zbb#s
 # DEBUG =False
 DEBUG = config('DJANGO_DEBUG', default=True, cast=bool)
 
-ALLOWED_HOSTS = ['tutorialcf99.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['tutorialcf99.herokuapp.com', '127.0.0.1', '0.0.0.0']
 
 
 # Application definition
